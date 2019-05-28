@@ -10,6 +10,8 @@ driver:
   aws_ssh_key_id: DevOpsStudents
   associate_public_ip: true
 
+    ssh_key: ~/.ssh/DevOpsStudents.pem
+
 
 verifier:
   name: inspec
